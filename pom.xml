@@ -7,6 +7,16 @@
 	<version>12.2.0</version>
 	<name>Mindcircuit Home myweb</name>
 	<url>http://maven.apache.org</url>
+
+	<properties>
+    	<docker.image.prefix>kammana</docker.image.prefix>
+	    <sonar.host.url>http://3.83.18.215:9000/</sonar.host.url>
+
+    <!-- ADD THESE -->
+    	<maven.compiler.source>17</maven.compiler.source>
+    	<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
